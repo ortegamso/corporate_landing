@@ -1,0 +1,26 @@
+[
+    {
+        "id": "consultoria",
+        "nombre": "Consultoría Especializada Avanzada",
+        "descripcion": "Análisis profundo y estrategias personalizadas para optimizar sus operaciones y maximizar el rendimiento.",
+        "icono": "assets/icon_service_placeholder_1.svg"
+    },
+    {
+        "id": "desarrollo_software",
+        "nombre": "Desarrollo de Software a Medida",
+        "descripcion": "Soluciones de software innovadoras, robustas y escalables, diseñadas específicamente para sus necesidades.",
+        "icono": "assets/icon_service_placeholder_2.svg"
+    },
+    {
+        "id": "analisis_datos",
+        "nombre": "Análisis de Datos e Inteligencia de Negocio",
+        "descripcion": "Transformamos grandes volúmenes de datos en insights accionables y decisiones estratégicas con BI.",
+        "icono": "assets/icon_service_placeholder_3.svg"
+    },
+    {
+        "id": "cloud_solutions",
+        "nombre": "Soluciones Cloud y DevOps",
+        "descripcion": "Migración, gestión y optimización de infraestructuras en la nube con prácticas DevOps.",
+        "icono": "assets/icon_service_placeholder_4.svg"
+    }
+]

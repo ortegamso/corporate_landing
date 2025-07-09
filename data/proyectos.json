@@ -1,0 +1,26 @@
+[
+    {
+        "id": "proyecto_alpha",
+        "nombre": "Optimización Energética Global (Alpha)",
+        "resumen": "Implementación exitosa de un sistema de gestión integral que resultó en un 15% de ahorro energético para un cliente multinacional.",
+        "imagen": "assets/project_image_placeholder_1.jpg"
+    },
+    {
+        "id": "plataforma_beta",
+        "nombre": "Plataforma Logística Inteligente (Beta)",
+        "resumen": "Desarrollo de una plataforma SaaS innovadora para la optimización de cadenas de suministro complejas, mejorando la eficiencia en un 25%.",
+        "imagen": "assets/project_image_placeholder_2.jpg"
+    },
+    {
+        "id": "consultoria_gamma",
+        "nombre": "Transformación Digital Sector Financiero (Gamma)",
+        "resumen": "Asesoría estratégica y ejecución de plan de transformación digital que modernizó la infraestructura de un importante banco.",
+        "imagen": "assets/project_image_placeholder_3.jpg"
+    },
+    {
+        "id": "innovacion_delta",
+        "nombre": "Innovación en Manufactura Aditiva (Delta)",
+        "resumen": "Investigación y desarrollo de nuevas técnicas en manufactura aditiva, reduciendo costos de prototipado en un 40%.",
+        "imagen": "assets/project_image_placeholder_4.jpg"
+    }
+]

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa X - Soluciones Innovadoras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo_placeholder.png" alt="Logo Empresa X">
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#about-us">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-header-cta">Cotizar Ahora</a>
+            <button id="mobile-menu-toggle" aria-label="Abrir menú">☰</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-background" style="background-image: url('assets/hero_background_placeholder.jpg');">
+                <!-- La imagen de fondo se establece aquí o en CSS -->
+            </div>
+            <div class="hero-content container">
+                <h1>Soluciones Tecnológicas para un Futuro Eficiente</h1>
+                <p>Innovación y experiencia al servicio de sus proyectos más desafiantes.</p>
+                <a href="#about-us" class="btn">Conócenos</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="container fade-in">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <!-- Las tarjetas de servicio se generarán dinámicamente por JavaScript -->
+                <!-- Placeholder para JS -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container fade-in">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Las tarjetas de proyecto se generarán dinámicamente por JavaScript -->
+                <!-- Placeholder para JS -->
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about-us" class="container fade-in">
+            <h2>Quiénes Somos</h2>
+            <div class="about-us-content">
+                <div class="about-text">
+                    <h3>Nuestra Misión</h3>
+                    <p>Proveer soluciones tecnológicas de vanguardia que impulsen el crecimiento y la eficiencia de nuestros clientes, manteniendo un compromiso con la innovación y la calidad.</p>
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser líderes reconocidos en el sector tecnológico, transformando industrias a través de la excelencia y la colaboración.</p>
+                    <h3>Nuestros Valores</h3>
+                    <p>Integridad, Innovación, Compromiso con el Cliente, Colaboración, Excelencia.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/team_placeholder.jpg" alt="Equipo Empresa X">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials/Partners Section -->
+        <section id="testimonials" class="container fade-in">
+            <h2>Testimonios y Aliados Estratégicos</h2>
+            <div class="testimonials-slider">
+                <!-- Ejemplo de testimonio/logo (repetir según sea necesario) -->
+                <div class="testimonial-item">
+                    <img src="assets/partner_logo_placeholder_1.png" alt="Logo Cliente/Partner 1">
+                    <p>"Sus soluciones innovadoras transformaron nuestra operativa." - CEO, Empresa Ejemplo</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="assets/partner_logo_placeholder_2.png" alt="Logo Cliente/Partner 2">
+                    <!-- Se puede añadir un párrafo aquí si es un testimonio -->
+                </div>
+                <div class="testimonial-item">
+                     <p>"Un equipo profesional y altamente capacitado." - Gerente de TI, Otra Empresa</p>
+                     <!-- Se puede añadir un logo de partner aquí si es un logo -->
+                </div>
+                <!-- Fin ejemplo -->
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="container fade-in">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre Completo:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+            <div id="form-status"></div> <!-- Para mensajes de éxito/error del formulario -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container footer-content">
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <!-- TODO: Reemplazar con datos de contacto reales -->
+                <p>Teléfono: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                <p>Email: <a href="mailto:info@empresax.com">info@empresax.com</a></p>
+                <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <a href="#" aria-label="LinkedIn"><img src="assets/social_linkedin_placeholder.svg" alt="LinkedIn" class="social-icon"></a>
+                <a href="#" aria-label="Twitter"><img src="assets/social_twitter_placeholder.svg" alt="Twitter" class="social-icon"></a>
+                <a href="#" aria-label="Facebook"><img src="assets/social_facebook_placeholder.svg" alt="Facebook" class="social-icon"></a>
+            </div>
+            <div class="footer-legal">
+                <p>&copy; <span id="current-year">2023</span> Empresa X. Todos los derechos reservados.</p>
+                <p><a href="#privacy-policy">Política de Privacidad</a> | <a href="#terms-of-service">Términos de Servicio</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
